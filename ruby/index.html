@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="ocks-org do-not-copy">
 <meta charset="utf-8">
-<title>Sankey Diagram</title>
+<title>「Ruby」に関するAmazonの書籍のブックマップ</title>
 <link rel="stylesheet" href="http://webstuffshare.com/demo/SweetTooltip/sweet-tooltip.css">
 <style>
 
@@ -44,6 +44,8 @@
 </style>
 <body>
 
+「Ruby」に関するAmazonの書籍のブックマップ<br/>
+
 <p id="chart">
 
 
@@ -55,7 +57,7 @@
 
 var margin = {top: 1, right: 1, bottom: 6, left: 1},
     width = 9000 - margin.left - margin.right,
-    height = 1000 - margin.top - margin.bottom;
+    height = 800 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),
     format = function(d) { return formatNumber(d) + " TWh"; },
